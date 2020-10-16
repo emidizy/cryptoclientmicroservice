@@ -3,8 +3,6 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28010.2003
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientMicroService", "TransactionMicroService\ClientMicroService.csproj", "{78D69DF2-C8CB-40E3-BC95-DF9EA3285D4F}"
-EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Persistence", "Persistence\Persistence.csproj", "{2FF85801-1CA4-4846-BF62-A25D2A0B6E5D}"
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Utilities", "Utilities\Utilities.csproj", "{B2CF9198-F5A1-44A5-93E4-4DFB64620F53}"
@@ -13,7 +11,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "AppCore", "AppCore\AppCore.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Broker", "Broker\Broker.csproj", "{1CB4F3E5-D001-45CB-B22D-9DD220F1F0A5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Domain", "Domain\Domain.csproj", "{04855C68-C29D-4E65-AF7B-E528B33929AF}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Domain", "Domain\Domain.csproj", "{04855C68-C29D-4E65-AF7B-E528B33929AF}"
+EndProject
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "ClientMicroService", "ClientMicroService\ClientMicroService.csproj", "{056052D0-1F10-48A5-8DF3-2888AB7B0FFF}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -21,10 +21,6 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{78D69DF2-C8CB-40E3-BC95-DF9EA3285D4F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{78D69DF2-C8CB-40E3-BC95-DF9EA3285D4F}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{78D69DF2-C8CB-40E3-BC95-DF9EA3285D4F}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{78D69DF2-C8CB-40E3-BC95-DF9EA3285D4F}.Release|Any CPU.Build.0 = Release|Any CPU
 		{2FF85801-1CA4-4846-BF62-A25D2A0B6E5D}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{2FF85801-1CA4-4846-BF62-A25D2A0B6E5D}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{2FF85801-1CA4-4846-BF62-A25D2A0B6E5D}.Release|Any CPU.ActiveCfg = Release|Any CPU
@@ -45,6 +41,10 @@ Global
 		{04855C68-C29D-4E65-AF7B-E528B33929AF}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{04855C68-C29D-4E65-AF7B-E528B33929AF}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{04855C68-C29D-4E65-AF7B-E528B33929AF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{056052D0-1F10-48A5-8DF3-2888AB7B0FFF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{056052D0-1F10-48A5-8DF3-2888AB7B0FFF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{056052D0-1F10-48A5-8DF3-2888AB7B0FFF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{056052D0-1F10-48A5-8DF3-2888AB7B0FFF}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
